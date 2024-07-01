@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: rgb(38, 38, 38);
+}
+
+.holder{
+    margin-top: 100px; 
+}
+
+.card{
+    width: 325px;
+    height: 330px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.word{
+    padding: 16px;
+}
+
+.word h3{
+    font-size: 25px;
+    margin-bottom: 8px;
+    color: white;
+}
+
+.word p{
+    color: grey;
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+.card a{
+    color: rgb(255, 255, 255);
+    background-color: rgb(25, 66, 147);
+    font-size: 10px;
+    padding: 8px;
+    text-decoration: none;
+    margin: 20px 20px;
+    border-radius: 3px;
+}
